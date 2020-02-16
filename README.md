@@ -1,12 +1,12 @@
 # Plot_with_R
 
 
-## Lines in groups: ggplot
+##1. Lines in groups: ggplot
 
 An example to plot multiple lines in one plot with ggplot.
 
 ```bash
-pdf("out.pdf")
+pdf("figure_1_lines.pdf")  # save figure to a PDF file
 # data
 x=c(1:10,1:10)
 y=c(rnorm(10),rnorm(10,mean=2))
